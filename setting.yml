@@ -1,0 +1,29 @@
+qq:
+  # QQ账号
+  number: 123456789
+  # QQ密码
+  password: 123456789
+
+# 数据库信息配置
+mysql:
+  # MySQL地址
+  host: 127.0.0.1
+  # MySQL端口
+  port: 3306
+  # MySQL用户
+  user: qqbot
+  # MYSQL密码
+  password: qqbot
+  # 使用的数据库
+  database: qqbot
+
+# 直播信息通知配置
+bili_live:
+  # 接收主体类型(0:群聊, 1:个人)
+  chatType: 1
+  # 接收主体号码(群号或QQ号码)，与上述对应
+  number: 987654321
+
+# 管理员账号
+admin:
+  number: 987654321
